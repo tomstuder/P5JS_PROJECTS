@@ -1,0 +1,23 @@
+body {
+  padding: 0; 
+  margin: 0;
+  } 
+
+h1 {
+  text-align: center; 
+  font-family: 'Poiret One', cursive;
+  margin-bottom: 0px;
+  } 
+
+p {
+  font-size: 1em; 
+  font-family: 'Poiret One', cursive; 
+  text-align: center; 
+  margin-top: 0; 
+  }
+
+canvas {
+  display: block;
+  vertical-align: top; 
+  margin: 0 auto;
+  } 

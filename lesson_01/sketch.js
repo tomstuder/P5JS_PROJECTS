@@ -11,11 +11,20 @@
 var s = 50;
 
 function setup() {
-  createCanvas(500,500);
+  createCanvas(400,600);
 }
 
 function draw() {
-  background(50);
-  rectMode(CENTER);
-  rect(mouseX,mouseY,s,s);
+  //background(0);
+  // ellipse
+  ellipseMode(CENTER);
+  noFill();
+  stroke(100,10);
+  strokeWeight(2);
+  ellipse(mouseX,mouseY,s,s);
+}
+
+function keyPressed(){
+  background(255,255,255);
+  return false; // prevent any default behaviour
 }
